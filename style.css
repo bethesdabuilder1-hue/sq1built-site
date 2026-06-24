@@ -197,6 +197,31 @@ footer a:hover{color:#fff}
 .forarch p{color:var(--ink2);max-width:58ch;margin:0 auto 26px;font-size:16px;line-height:1.6}
 .forarch .mlink{display:inline-block;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--bronze);border-bottom:1px solid var(--bronze2);padding-bottom:4px}
 .forarch .mlink:hover{color:var(--ink)}
+.solved{background:var(--cream);padding:64px 0}
+.solved .wrap{max-width:780px}
+.solved .eyebrow{color:var(--bronze)}
+.solved h2{font-family:'Cormorant Garamond',serif;font-size:clamp(24px,3vw,34px);margin:10px 0 22px}
+.solved ul{list-style:none;display:grid;gap:14px}
+.solved li{position:relative;padding-left:26px;color:var(--ink2);font-size:15.5px;line-height:1.55}
+.solved li::before{content:"";position:absolute;left:0;top:9px;width:9px;height:9px;background:var(--bronze);transform:rotate(45deg)}
+.contact-sec{padding:20px 0 96px}
+.contact-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:60px;align-items:start}
+.contact-info h3{font-family:'Cormorant Garamond',serif;font-size:26px;margin-bottom:10px}
+.contact-info p{color:var(--ink2);margin-bottom:14px;line-height:1.6}
+.contact-info .cline{display:flex;flex-direction:column;gap:2px}
+.contact-info .cline span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.contact-info .cline a{color:var(--bronze);border-bottom:1px solid var(--bronze2)}
+.contact-info .cnote{margin-top:24px;font-size:13.5px;color:var(--muted);font-style:italic;border-top:1px solid var(--line);padding-top:18px;max-width:34ch}
+.cform{display:flex;flex-direction:column;gap:16px}
+.cform .frow{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.cform label{display:flex;flex-direction:column;gap:6px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.cform input,.cform select,.cform textarea{font-family:inherit;font-size:15px;color:var(--ink);background:var(--paper);border:1px solid var(--line);padding:12px 14px;width:100%;border-radius:0;text-transform:none;letter-spacing:0}
+.cform input:focus,.cform select:focus,.cform textarea:focus{outline:none;border-color:var(--bronze)}
+.cform .btn{align-self:flex-start;margin-top:6px;cursor:pointer}
+.cform .hp{position:absolute;left:-9999px}
+.cthanks{display:none;color:var(--bronze);font-size:14px;letter-spacing:.02em;text-transform:none}
+.cform:target .cthanks,form .cthanks:target{display:block}
+@media(max-width:820px){.contact-grid{grid-template-columns:1fr;gap:32px}.cform .frow{grid-template-columns:1fr}}
 .carelist{margin-top:26px;display:grid;gap:20px}
 .careitem{border-top:1px solid var(--line);padding-top:16px}
 .careitem b{display:block;font-size:13px;letter-spacing:.06em;color:var(--ink);margin-bottom:5px}
