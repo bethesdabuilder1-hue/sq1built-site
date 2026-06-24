@@ -226,3 +226,6 @@ footer a:hover{color:#fff}
 .careitem{border-top:1px solid var(--line);padding-top:16px}
 .careitem b{display:block;font-size:13px;letter-spacing:.06em;color:var(--ink);margin-bottom:5px}
 .careitem{font-size:14.5px;line-height:1.55;color:var(--ink2);max-width:52ch}
+
+.more{margin-top:.6rem}
+.more a{font-size:.85rem;letter-spacing:.04em;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:2px}
