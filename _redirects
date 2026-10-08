@@ -4,6 +4,50 @@ https://www.sq1developmentgroup.com/* https://sq1built.com/:splat 301!
 http://sq1developmentgroup.com/* https://sq1built.com/:splat 301!
 http://www.sq1developmentgroup.com/* https://sq1built.com/:splat 301!
 
+# Canonical URL: https://sq1built.com/page  (not www, not http, not .html)
+https://www.sq1built.com/* https://sq1built.com/:splat 301!
+http://sq1built.com/* https://sq1built.com/:splat 301!
+http://www.sq1built.com/* https://sq1built.com/:splat 301!
+/index.html / 301!
+/404.html /404 301!
+/about.html /about 301!
+/alexandria-custom-home-builder.html /alexandria-custom-home-builder 301!
+/architect-led-construction.html /architect-led-construction 301!
+/arlington-custom-home-builder.html /arlington-custom-home-builder 301!
+/bethesda-custom-home-builder.html /bethesda-custom-home-builder 301!
+/blaisdell.html /blaisdell 301!
+/blue-ridge.html /blue-ridge 301!
+/condominium-renovations.html /condominium-renovations 301!
+/contact.html /contact 301!
+/cumulus-house.html /cumulus-house 301!
+/custom-homes.html /custom-homes 301!
+/frederick-md-custom-home-builder.html /frederick-md-custom-home-builder 301!
+/hull-house.html /hull-house 301!
+/jigsaw.html /jigsaw 301!
+/journal/blue-ridge-house-olson-kundig.html /journal/blue-ridge-house-olson-kundig 301!
+/journal/choosing-an-architect-before-your-builder.html /journal/choosing-an-architect-before-your-builder 301!
+/journal/the-building-experience-matters-too.html /journal/the-building-experience-matters-too 301!
+/journal/what-preconstruction-should-include.html /journal/what-preconstruction-should-include 301!
+/journal/when-the-lowest-bid-isnt-the-real-cost.html /journal/when-the-lowest-bid-isnt-the-real-cost 301!
+/journal.html /journal 301!
+/laverock.html /laverock 301!
+/liminal-house.html /liminal-house 301!
+/logan-circle.html /logan-circle 301!
+/logan-penthouse.html /logan-penthouse 301!
+/mclean-custom-home-builder.html /mclean-custom-home-builder 301!
+/ontario.html /ontario 301!
+/pivoting.html /pivoting 301!
+/potomac-custom-home-builder.html /potomac-custom-home-builder 301!
+/recognition.html /recognition 301!
+/renovations.html /renovations 301!
+/services.html /services 301!
+/square-one-care.html /square-one-care 301!
+/the-plains-custom-home-builder.html /the-plains-custom-home-builder 301!
+/three-notes.html /three-notes 301!
+/washington-dc-custom-home-builder.html /washington-dc-custom-home-builder 301!
+/wildcat-mountain.html /wildcat-mountain 301!
+/work.html /work 301!
+
 # Netlify redirects (sq1built.com)
 # 1. Old Netlify subdomain -> primary domain (deploy previews use other subdomains and are unaffected)
 https://helpful-strudel-6c6257.netlify.app/*  https://sq1built.com/:splat  301!

@@ -67,7 +67,7 @@ header.scrolled .menu .inquire{border-color:var(--ink)}
 .names span{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,2.3vw,29px);color:var(--ink2);font-weight:500}
 .press{background:var(--cream)}
 .press .names span{font-size:clamp(17px,2vw,23px);color:var(--muted);letter-spacing:.04em}
-.names a{color:inherit;text-decoration:none;border-bottom:1px solid var(--bronze2);padding-bottom:2px;transition:.25s}
+.names a{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,2.3vw,29px);font-weight:500;color:var(--ink2);text-decoration:none;border-bottom:1px solid var(--bronze2);padding-bottom:2px;transition:.25s}
 .names a:hover{color:var(--bronze)}
 
 /* DISCRETION + CTA + FOOTER */
@@ -85,6 +85,9 @@ footer a:hover{color:#fff}
 .fnav{display:flex;gap:22px;flex-wrap:wrap;align-items:center}
 .fnav .fsoc{display:inline-flex;align-items:center;margin-left:4px}
 .fnav .fsoc svg{width:17px;height:17px;display:block}
+.fwhere{flex:1 1 100%;display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:6px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.fwhere span{color:rgba(247,243,236,.45)}
+.fwhere a{color:rgba(247,243,236,.75)}
 
 /* CRAFT / THE BUILD */
 .craft{background:var(--ink);color:#fff;padding:104px 0}
