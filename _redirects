@@ -8,8 +8,8 @@ http://www.sq1developmentgroup.com/* https://sq1built.com/:splat 301!
 https://www.sq1built.com/* https://sq1built.com/:splat 301!
 http://sq1built.com/* https://sq1built.com/:splat 301!
 http://www.sq1built.com/* https://sq1built.com/:splat 301!
-/index.html / 301
-/*.html /:splat 301
+/index.html / 301!
+/*.html /:splat 301!
 
 # Netlify redirects (sq1built.com)
 # 1. Old Netlify subdomain -> primary domain (deploy previews use other subdomains and are unaffected)
