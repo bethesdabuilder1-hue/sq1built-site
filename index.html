@@ -13,6 +13,9 @@
 <meta property="og:image" content="https://sq1built.com/img/hero.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="./img/favicon.png">
+<link rel="preload" as="image" type="image/webp" fetchpriority="high" href="/img/resp/hero-1024.webp" media="(max-width: 760px) and (max-resolution: 2.99dppx)">
+<link rel="preload" as="image" type="image/webp" fetchpriority="high" href="/img/resp/hero-1600.webp" media="(max-width: 760px) and (min-resolution: 3dppx)">
+<link rel="preload" as="image" type="image/webp" fetchpriority="high" href="/img/resp/hero-2000.webp" media="(min-width: 761px)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap">
@@ -37,7 +40,7 @@
 </header>
 
 <!-- HERO -->
-<section class="hero" id="top" style="background-image:url('./img/hero.jpg')">
+<section class="hero" id="top" data-bg="hero.jpg">
   <div class="wrap hero-inner">
     <div class="eyebrow">Custom Homes · Washington, DC · Maryland · Virginia</div>
     <h1>The builder behind award-winning architecture.</h1>
@@ -63,28 +66,28 @@
 <!-- MONEY SHOTS -->
 <div class="secthead"><h2 id="work">Selected Work</h2></div>
 
-<section class="mband" style="background-image:url('./img/blue-ridge/g0.jpg')"><div class="wrap mcap">
+<section class="mband" data-bg="blue-ridge/g0.jpg"><div class="wrap mcap">
   <div class="eyebrow">Featured in Dwell</div>
   <h2>Blue Ridge House</h2>
   <div class="mmeta">Olson Kundig (Tom Kundig) · Delaplane, VA</div>
   <a class="mlink" href="/blue-ridge">View project →</a>
 </div></section>
 
-<section class="mband" style="background-image:url('./img/pivoting/hero.jpg')"><div class="wrap mcap">
+<section class="mband" data-bg="pivoting/hero.jpg"><div class="wrap mcap">
   <div class="eyebrow">AIA + Home &amp; Design award recipient</div>
   <h2>Pivoting</h2>
   <div class="mmeta">MODE4 Architecture · Bethesda, MD</div>
   <a class="mlink" href="/pivoting">View project →</a>
 </div></section>
 
-<section class="mband" style="background-image:url('./img/jigsaw/hero.jpg')"><div class="wrap mcap">
+<section class="mband" data-bg="jigsaw/hero.jpg"><div class="wrap mcap">
   <div class="eyebrow">National AIA Honor Award</div>
   <h2>Jigsaw</h2>
   <div class="mmeta">David Jameson, FAIA · Bethesda, MD</div>
   <a class="mlink" href="/jigsaw">View project →</a>
 </div></section>
 
-<section class="mband" style="background-image:url('./img/wildcat_dusk.jpg')"><div class="wrap mcap">
+<section class="mband" data-bg="wildcat_dusk.jpg"><div class="wrap mcap">
   <div class="eyebrow">2020 International Architecture Award recipient</div>
   <h2>Wildcat Mountain</h2>
   <div class="mmeta">David Jameson, FAIA · The Plains, VA</div>
@@ -97,34 +100,34 @@
   <h2>Anyone can photograph a finished room. We're proud of how it gets built.</h2>
   <p>Hillsides, structural glass, board-formed concrete, geothermal systems, AAC block — the engineering behind the beauty is where the real work lives, and where three decades of craft show. It's the reason architects bring us the details other builders quietly decline.</p>
   <div class="craft-grid">
-    <figure><img loading="lazy" decoding="async" src="./img/br_build1.jpg" alt="Steel frame and floor joists of Blue Ridge House cantilevered over the Virginia valley during construction" width="1125" height="1500"><figcaption>Steel frame over the valley · Blue Ridge House</figcaption></figure>
-    <figure><img loading="lazy" decoding="async" src="./img/br_build3.jpg" alt="Cantilevered steel structure and board-formed concrete core of Blue Ridge House under construction" width="1600" height="1200"><figcaption>Cantilever &amp; concrete core · Blue Ridge House</figcaption></figure>
-    <figure><img loading="lazy" decoding="async" src="./img/br_build2.jpg" alt="Interior framing of Blue Ridge House with the build crew on site" width="1125" height="1500"><figcaption>Framing &amp; crew · Blue Ridge House</figcaption></figure>
+    <figure><picture><source type="image/webp" srcset="/img/resp/br_build1-640.webp 640w, /img/resp/br_build1-1024.webp 1024w, /img/resp/br_build1-1125.webp 1125w" sizes="(max-width: 760px) calc(100vw - 80px), 400px"><img loading="lazy" decoding="async" src="./img/br_build1.jpg" alt="Steel frame and floor joists of Blue Ridge House cantilevered over the Virginia valley during construction" width="1125" height="1500"></picture><figcaption>Steel frame over the valley · Blue Ridge House</figcaption></figure>
+    <figure><picture><source type="image/webp" srcset="/img/resp/br_build3-640.webp 640w, /img/resp/br_build3-1024.webp 1024w, /img/resp/br_build3-1600.webp 1600w" sizes="(max-width: 760px) calc(100vw - 80px), 400px"><img loading="lazy" decoding="async" src="./img/br_build3.jpg" alt="Cantilevered steel structure and board-formed concrete core of Blue Ridge House under construction" width="1600" height="1200"></picture><figcaption>Cantilever &amp; concrete core · Blue Ridge House</figcaption></figure>
+    <figure><picture><source type="image/webp" srcset="/img/resp/br_build2-640.webp 640w, /img/resp/br_build2-1024.webp 1024w, /img/resp/br_build2-1125.webp 1125w" sizes="(max-width: 760px) calc(100vw - 80px), 400px"><img loading="lazy" decoding="async" src="./img/br_build2.jpg" alt="Interior framing of Blue Ridge House with the build crew on site" width="1125" height="1500"></picture><figcaption>Framing &amp; crew · Blue Ridge House</figcaption></figure>
   </div>
 </div></section>
 
-<section class="mband" style="background-image:url('./img/liminal-house/hero.jpg')"><div class="wrap mcap">
+<section class="mband" data-bg="liminal-house/hero.jpg"><div class="wrap mcap">
   <div class="eyebrow">Guest house · 2022 International Architecture Award</div>
   <h2>Liminal House</h2>
   <div class="mmeta">David Jameson, FAIA · The Plains, VA · Main house: Wildcat Mountain</div>
   <a class="mlink" href="/liminal-house">View project →</a>
 </div></section>
 
-<section class="mband" style="background-image:url('./img/hull-house/hero.jpg')"><div class="wrap mcap">
+<section class="mband" data-bg="hull-house/hero.jpg"><div class="wrap mcap">
   <div class="eyebrow">2021 Residential Design Architecture Award recipient</div>
   <h2>Hull House</h2>
   <div class="mmeta">David Jameson, FAIA · Alexandria, VA</div>
   <a class="mlink" href="/hull-house">View project →</a>
 </div></section>
 
-<section class="mband" style="background-image:url('./img/logan-circle/hero.jpg')"><div class="wrap mcap">
+<section class="mband" data-bg="logan-circle/hero.jpg"><div class="wrap mcap">
   <div class="eyebrow">Featured in Interior Design</div>
   <h2>Logan Circle</h2>
   <div class="mmeta">Todd Webb, Dirk Denison · Washington, DC</div>
   <a class="mlink" href="/logan-circle">View project →</a>
 </div></section>
 
-<section class="mband" style="background-image:url('./img/ontario/hero.jpg')"><div class="wrap mcap">
+<section class="mband" data-bg="ontario/hero.jpg"><div class="wrap mcap">
   <div class="eyebrow">2020 Residential Design Architecture Award recipient</div>
   <h2>Ontario Residence</h2>
   <div class="mmeta">David Jameson, FAIA · Washington, DC</div>
@@ -146,8 +149,8 @@
     <div class="sub">A look at what's on the boards now — homes in progress with two of the country's most celebrated firms.</div>
   </div>
   <div class="wgrid">
-    <div class="wcard"><div class="wimg" style="background-image:url('./img/sudbury.jpg')"><span class="tag">Rendering · In progress</span></div><div class="wmeta"><div class="wname">Sudbury</div><div class="warch">MKCA — Michael K. Chen Architecture</div></div></div>
-    <div class="wcard"><div class="wimg" style="background-image:url('./img/decade.jpg')"><span class="tag">Rendering · In progress</span></div><div class="wmeta"><div class="wname">The Decade House</div><div class="warch">MODE4 Architecture</div></div></div>
+    <div class="wcard"><div class="wimg" data-bg="sudbury.jpg"><span class="tag">Rendering · In progress</span></div><div class="wmeta"><div class="wname">Sudbury</div><div class="warch">MKCA — Michael K. Chen Architecture</div></div></div>
+    <div class="wcard"><div class="wimg" data-bg="decade.jpg"><span class="tag">Rendering · In progress</span></div><div class="wmeta"><div class="wname">The Decade House</div><div class="warch">MODE4 Architecture</div></div></div>
   </div>
 </div></section>
 
