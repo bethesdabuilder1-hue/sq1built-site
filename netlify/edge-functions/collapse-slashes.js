@@ -32,6 +32,9 @@ export default async (request, context) => {
 export const config = {
   // Anchored by Netlify to ^.*//.*$ so only repeated-slash paths invoke this.
   pattern: ".*//.*",
-  method: ["GET", "HEAD"],
+  // Do not set `method`. The edge manifest allows only GET, POST, PUT,
+  // PATCH, DELETE, and OPTIONS, so listing HEAD fails the deploy. Omitting
+  // the filter still runs this on GET and HEAD. The handler redirects only
+  // when the path contains "//".
   onError: "bypass",
 };
